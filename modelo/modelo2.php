@@ -1,8 +1,8 @@
 <?php
 include_once("../../conf/conf.php");
 class modelo2 extends conf{
-	public function __contruct(){
-		parent:: __contruct();
+	public function __construct(){
+		parent:: __construct();
 	}
 	public function read($table,$data,$condi=false){
 		if($condi!=false){
